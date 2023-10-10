@@ -1,0 +1,10 @@
+ g++ -g Matrix.cpp -o out.exe
+gdb out.exe
+break Matrix.cpp : 43
+break Matrix.cpp : 44
+run
+print x
+continue
+print x
+continue
+print x
